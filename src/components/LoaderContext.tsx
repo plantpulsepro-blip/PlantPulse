@@ -22,7 +22,7 @@ export function LoaderProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     const currentFrame = (index: number) => 
-      `/frames/frame_${(index + 1).toString().padStart(6, '0')}.png`;
+      `/frames/frame_${(index + 1).toString().padStart(6, '0')}.webp`;
 
     let loadedCount = 0;
     const handleLoadOrError = () => {

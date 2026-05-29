@@ -313,11 +313,11 @@ export default function Home() {
             
             <div className="flex flex-wrap justify-center gap-6 lg:gap-8">
               {[
-                { name: 'Pranab Saini', role: 'Chief Executive Officer', photo: '/Members/pranab.png' },
-                { name: 'Yashpal Kumar', role: 'Chief Technology Officer', photo: '/Members/yashpal.png' },
-                { name: 'Abhishek Kumar', role: 'Chief Financial Officer', photo: '/Members/abhishek.png' },
-                { name: 'Yashika', role: 'Marketing Head', photo: '/Members/yashika.png' },
-                { name: 'Aditi', role: 'Product Manager', photo: '/Members/aditi.png' }
+                { name: 'Pranab Saini', role: 'Chief Executive Officer', photo: '/Members/pranab.webp' },
+                { name: 'Yashpal Kumar', role: 'Chief Technology Officer', photo: '/Members/yashpal.webp' },
+                { name: 'Abhishek Kumar', role: 'Chief Financial Officer', photo: '/Members/abhishek.webp' },
+                { name: 'Yashika', role: 'Marketing Head', photo: '/Members/yashika.webp' },
+                { name: 'Aditi', role: 'Product Manager', photo: '/Members/aditi.webp' }
               ].map((member, i) => (
                 <div key={i} className="group relative w-full sm:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-2rem)] bg-white/[0.02] border border-white/5 rounded-3xl overflow-hidden hover:border-[#10b981]/50 hover:bg-white/[0.04] transition-all duration-500 hover:-translate-y-2">
                   <div className="w-full aspect-[4/5] overflow-hidden relative">
