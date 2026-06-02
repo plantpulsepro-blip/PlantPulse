@@ -50,3 +50,66 @@ body {
 * {
   scrollbar-width: none;
 }
+
+.leaflet-container {
+  background: #020202;
+  color: #ededed;
+  font-family: inherit;
+}
+
+.leaflet-pane,
+.leaflet-control {
+  outline: none;
+}
+
+.leaflet-interactive {
+  transition: fill 220ms ease, fill-opacity 220ms ease, stroke 220ms ease, stroke-opacity 220ms ease, stroke-width 220ms ease;
+}
+
+.leaflet-control-zoom {
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 9999px !important;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.03) !important;
+  backdrop-filter: blur(18px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+
+.leaflet-control-zoom a {
+  background: rgba(255, 255, 255, 0.02) !important;
+  color: #ffffff !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+  width: 34px !important;
+  height: 34px !important;
+  line-height: 34px !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background: rgba(16, 185, 129, 0.16) !important;
+  color: #10b981 !important;
+}
+
+.leaflet-control-zoom a:last-child {
+  border-bottom: 0 !important;
+}
+
+.leaflet-tooltip.climate-map-tooltip {
+  background: rgba(8, 8, 8, 0.96);
+  color: #f5f5f5;
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  border-radius: 0.9rem;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.45);
+  padding: 0.7rem 0.8rem;
+}
+
+.leaflet-tooltip.climate-map-tooltip:before {
+  border-top-color: rgba(16, 185, 129, 0.35);
+}
+
+.leaflet-tooltip.climate-map-tooltip .leaflet-tooltip-content {
+  margin: 0;
+}
+
+.leaflet-container a {
+  color: inherit;
+}

@@ -100,9 +100,6 @@ export function Navigation() {
           <a href="#" className="hidden md:flex items-center justify-center px-5 py-2 rounded-full text-sm font-medium tracking-wide text-white/70 bg-white/[0.03] border border-white/5 hover:text-white hover:bg-white/[0.1] hover:border-white/20 transition-all duration-300">
             Dashboard
           </a>
-          <button className="px-6 py-2 rounded-full text-sm font-semibold tracking-wide bg-white text-black hover:bg-[#10b981] hover:text-white hover:shadow-[0_0_20px_rgba(16,185,129,0.5)] hover:scale-105 transition-all duration-300">
-            Sign Up
-          </button>
         </div>
       </nav>
     </>

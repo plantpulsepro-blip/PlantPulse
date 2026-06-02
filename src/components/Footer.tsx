@@ -15,7 +15,7 @@ export function Footer() {
               <span className="font-semibold text-2xl tracking-tight">PlantPulse</span>
             </div>
             <p className="text-white/40 text-sm max-w-sm leading-relaxed mb-8">
-              The central nervous system for your plants. Next-generation biomimicry and edge AI to predict yields and optimize your canopy 24/7.
+              PlantPulse provides regional climate insights and plant-impact data to support resilient agriculture, biodiversity protection, and informed decision-making.
             </p>
             
             <div className="flex gap-4">
@@ -35,7 +35,7 @@ export function Footer() {
             <ul className="flex flex-col gap-4 text-sm text-white/50">
               <li><a href="#" className="hover:text-[#10b981] transition-colors">Micro-Climate Sensors</a></li>
               <li><a href="#" className="hover:text-[#10b981] transition-colors">Yield Prediction</a></li>
-              <li><a href="#" className="hover:text-[#10b981] transition-colors">Autonomous HVAC</a></li>
+              <li><a href="#" className="hover:text-[#10b981] transition-colors">Regional Climate Feeds</a></li>
               <li><a href="#" className="hover:text-[#10b981] transition-colors">Integration API</a></li>
             </ul>
           </div>
@@ -68,7 +68,7 @@ export function Footer() {
           </div>
           <div className="text-white/30 text-xs text-left md:text-right shrink-0 absolute bottom-4 right-0 md:relative md:bottom-auto">
             <p>© {new Date().getFullYear()} PlantPulse Inc.</p>
-            <p className="mt-1">All systems nominal.</p>
+            <p className="mt-1">Committed to climate resilience.</p>
           </div>
         </div>
       </div>

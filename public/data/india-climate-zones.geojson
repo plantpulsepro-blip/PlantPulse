@@ -1,0 +1,263 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "indogangetic-humid-subtropical",
+        "name": "Indo-Gangetic Humid Subtropical",
+        "description": "A high-productivity belt with warm summers, cool winters, and dependable irrigation demand. Ideal for year-round monitoring and density-sensitive crops.",
+        "tempRange": "10-35 C",
+        "rainfall": "700-1,200 mm / yr",
+        "humidity": "Moderate to high",
+        "season": "Peak growth: monsoon to early winter",
+        "bestCrops": ["Wheat", "Rice", "Sugarcane", "Leafy greens"],
+        "color": "#10b981",
+        "accent": "High-growth agricultural corridor",
+        "temperatureTrend": "Warmer nights and hotter pre-monsoon peaks are increasing heat stress across the belt.",
+        "rainfallChange": "Rainfall is arriving in heavier bursts with longer dry gaps between events.",
+        "nativePlantImpact": "Wetland grasses and riparian species are losing reliable seasonal moisture cycles.",
+        "cropImpact": "Wheat, rice, and sugarcane face greater irrigation demand and pest pressure.",
+        "vulnerabilityLevel": "High",
+        "nativePlants": ["Kans grass", "Jamun", "Sacred fig"],
+        "impactedCrops": ["Wheat", "Rice", "Pulses", "Sugarcane"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [73.2, 23.0],
+            [77.5, 24.2],
+            [83.2, 24.5],
+            [88.4, 25.0],
+            [91.8, 29.0],
+            [86.0, 30.5],
+            [78.2, 29.0],
+            [73.2, 23.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "northwest-arid",
+        "name": "Northwest Arid",
+        "description": "Hot, dry, and highly evaporative. Irrigation, shade load, and water-use efficiency drive successful cultivation.",
+        "tempRange": "18-46 C",
+        "rainfall": "100-400 mm / yr",
+        "humidity": "Low",
+        "season": "Best window: winter and early spring",
+        "bestCrops": ["Millets", "Cotton", "Dates", "Cumin"],
+        "color": "#f59e0b",
+        "accent": "Water-stressed desert fringe",
+        "temperatureTrend": "Heatwaves are lasting longer and arriving earlier in the season.",
+        "rainfallChange": "Monsoon rainfall is more erratic, with shorter bursts and longer dry spells.",
+        "nativePlantImpact": "Desert shrubs and dryland flora are under stronger moisture stress.",
+        "cropImpact": "Millets, cotton, and cumin require tighter irrigation scheduling and shade management.",
+        "vulnerabilityLevel": "Severe",
+        "nativePlants": ["Khejri", "Aak", "Desert grasses"],
+        "impactedCrops": ["Millets", "Cotton", "Cumin", "Dates"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [67.8, 23.0],
+            [72.8, 23.2],
+            [75.0, 27.0],
+            [76.4, 31.5],
+            [71.2, 33.8],
+            [67.8, 28.4],
+            [67.8, 23.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "central-semi-arid",
+        "name": "Central Semi-Arid Plateau",
+        "description": "Interior plateau conditions with strong afternoon heat, scattered rainfall, and pronounced day-night swings.",
+        "tempRange": "14-41 C",
+        "rainfall": "500-900 mm / yr",
+        "humidity": "Low to moderate",
+        "season": "Best window: post-monsoon through winter",
+        "bestCrops": ["Millets", "Pulses", "Soybean", "Groundnut"],
+        "color": "#f97316",
+        "accent": "Heat-amplified interior plateau",
+        "temperatureTrend": "Daytime heat is rising faster than night-time cooling can recover.",
+        "rainfallChange": "Monsoon onset is less predictable and rainfall spacing is becoming inconsistent.",
+        "nativePlantImpact": "Dry deciduous habitats are shrinking under repeated heat and moisture stress.",
+        "cropImpact": "Pulses, soybean, and groundnut yields are becoming more variable year to year.",
+        "vulnerabilityLevel": "High",
+        "nativePlants": ["Teak", "Butea", "Dry deciduous shrubs"],
+        "impactedCrops": ["Millets", "Pulses", "Soybean", "Groundnut"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [73.0, 14.0],
+            [77.5, 12.8],
+            [81.2, 14.5],
+            [84.5, 18.3],
+            [82.8, 23.2],
+            [76.0, 22.0],
+            [73.0, 14.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "western-coastal-tropical",
+        "name": "Western Coastal Tropical",
+        "description": "Humidity-rich maritime air moderates temperatures but increases fungal pressure, fog events, and rapid canopy response.",
+        "tempRange": "24-34 C",
+        "rainfall": "2,000-3,500 mm / yr",
+        "humidity": "Very high",
+        "season": "Monsoon-dominant production zone",
+        "bestCrops": ["Coconut", "Spices", "Banana", "Pepper"],
+        "color": "#06b6d4",
+        "accent": "Coastal humidity corridor",
+        "temperatureTrend": "Warmer sea breezes and humid nights are increasing physiological stress.",
+        "rainfallChange": "Monsoon bursts are becoming stronger, raising flood and runoff risk.",
+        "nativePlantImpact": "Mangrove edges and coastal species face salinity and storm pressure.",
+        "cropImpact": "Spices, coconut, and banana face fungal pressure and cyclone damage.",
+        "vulnerabilityLevel": "High",
+        "nativePlants": ["Mangroves", "Coconut groves", "Casuarina"],
+        "impactedCrops": ["Coconut", "Spices", "Banana", "Pepper"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [72.0, 8.1],
+            [73.8, 8.4],
+            [75.2, 12.0],
+            [75.6, 16.2],
+            [76.2, 20.4],
+            [73.4, 19.6],
+            [72.0, 14.0],
+            [72.0, 8.1]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "eastern-coastal-tropical",
+        "name": "Eastern Coastal Tropical",
+        "description": "Warm coastal plains with monsoon exposure, strong humidity swings, and a long warm season for fast-growing crops.",
+        "tempRange": "23-35 C",
+        "rainfall": "1,100-2,500 mm / yr",
+        "humidity": "High",
+        "season": "Primary growth: monsoon and shoulder months",
+        "bestCrops": ["Paddy", "Pulses", "Banana", "Vegetables"],
+        "color": "#38bdf8",
+        "accent": "Warm monsoon coast",
+        "temperatureTrend": "Longer warm seasons are increasing pest and disease windows.",
+        "rainfallChange": "Rain is swinging between flood-producing bursts and delayed monsoon onset.",
+        "nativePlantImpact": "Delta wetlands and coastal forests are under growing salinity intrusion.",
+        "cropImpact": "Paddy and vegetables face flood, salinity, and disease stress.",
+        "vulnerabilityLevel": "High",
+        "nativePlants": ["Sundari", "Mangroves", "Coastal reeds"],
+        "impactedCrops": ["Paddy", "Pulses", "Banana", "Vegetables"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [80.0, 8.5],
+            [83.0, 8.6],
+            [85.6, 11.2],
+            [87.8, 15.0],
+            [87.8, 20.5],
+            [84.3, 20.0],
+            [80.0, 14.5],
+            [80.0, 8.5]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "northeast-humid",
+        "name": "Northeast Humid Highlands",
+        "description": "A wet, cloud-prone zone with steep terrain, fast drainage, and high biomass turnover.",
+        "tempRange": "12-30 C",
+        "rainfall": "1,800-5,000 mm / yr",
+        "humidity": "Very high",
+        "season": "Stable growth through most of the year",
+        "bestCrops": ["Tea", "Jute", "Cardamom", "Horticulture"],
+        "color": "#22c55e",
+        "accent": "Ultra-humid highland belt",
+        "temperatureTrend": "Even small warming shifts cloud cover, mist, and cooling cycles.",
+        "rainfallChange": "Heavier rainfall events are more concentrated, raising erosion and landslide risk.",
+        "nativePlantImpact": "Highland forests are sensitive to habitat compression and slope instability.",
+        "cropImpact": "Tea and horticulture need stronger drainage and disease control.",
+        "vulnerabilityLevel": "Moderate",
+        "nativePlants": ["Orchids", "Bamboo", "Tea forests"],
+        "impactedCrops": ["Tea", "Jute", "Cardamom", "Horticulture"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [88.0, 22.0],
+            [91.8, 22.2],
+            [94.0, 24.0],
+            [96.8, 29.2],
+            [92.8, 29.0],
+            [89.2, 26.4],
+            [88.0, 22.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "himalayan-cold",
+        "name": "Himalayan Cold Zone",
+        "description": "High-altitude conditions with strong radiation, cold nights, and short but intense growing windows.",
+        "tempRange": "-5-24 C",
+        "rainfall": "500-2,000 mm / yr",
+        "humidity": "Variable",
+        "season": "Short summer window with snow-driven storage constraints",
+        "bestCrops": ["Apples", "Barley", "Medicinals", "Temperate vegetables"],
+        "color": "#a3e635",
+        "accent": "High-altitude cold corridor",
+        "temperatureTrend": "Cold-season duration is shortening while snowlines are shifting uphill.",
+        "rainfallChange": "Precipitation is becoming more seasonal and snowpack stability is falling.",
+        "nativePlantImpact": "Alpine meadows and cold-adapted species are shifting upslope or contracting.",
+        "cropImpact": "Apples and temperate crops face frost, water, and phenology shifts.",
+        "vulnerabilityLevel": "Severe",
+        "nativePlants": ["Juniper", "Birch", "Alpine herbs"],
+        "impactedCrops": ["Apples", "Barley", "Medicinals", "Temperate vegetables"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [71.8, 28.0],
+            [76.5, 29.0],
+            [82.0, 30.2],
+            [88.5, 32.0],
+            [95.2, 35.0],
+            [96.8, 36.0],
+            [89.8, 36.5],
+            [81.0, 35.6],
+            [74.5, 33.6],
+            [71.8, 28.0]
+          ]
+        ]
+      }
+    }
+  ]
+}
